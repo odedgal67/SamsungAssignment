@@ -23,6 +23,6 @@ class MemoryWrite:
 
     def write_to_file(self, f):
         for i, frame in enumerate(self.Data):
-            address = self.Start_address + i * FRAME_SIZE
-            duration = int(self.Duration / self.N)
-            f.write(struct.pack('II', address, duration) + frame.encode('utf-8'))  # TODO: fix writing format
+            address = struct.pack('I', self.Start_address + i * FRAME_SIZE)
+            duration = struct.pack('f', self.Duration / self.N)
+            f.write(address + duration + frame)

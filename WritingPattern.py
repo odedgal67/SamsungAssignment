@@ -11,9 +11,7 @@ class WritingPattern:
             self._add_memory_write(new_memory_write)
         self.memory_writes = sorted(self.memory_writes, key=compare_by_end_time)  # Sort memory writes for each writing pattern by end time
 
-
     def _add_memory_write(self, memory_write: MemoryWrite):
-        # TODO: add checks for duration/size/addresses out of bounds
         self.memory_writes.append(memory_write)
 
     def get_pattern(self) -> List[MemoryWrite]:
