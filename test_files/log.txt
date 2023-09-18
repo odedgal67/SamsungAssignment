@@ -1,0 +1,1 @@
+1695063228.8269339 : System failure detected	DELTA : 15	THRESHOLD : 11695063272.9512722 : System failure detected	DELTA : 15	THRESHOLD : 11695063761.8668313 : System failure detected	DELTA : 200	THRESHOLD : 10

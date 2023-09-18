@@ -1,9 +1,7 @@
 import os
-import queue
 import time
 from os import path
 from typing import List
-
 from Exceptions import SystemFailureException, InvalidConfigException
 from FrameTransmitter import FrameTransmitter
 from Utils import FrameStruct, log, read_config, THRESHOLD_KEY, DELTA_KEY

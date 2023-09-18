@@ -1,6 +1,7 @@
 from typing import List
-from MemoryWrite import MemoryWrite
+
 from Utils import compare_by_end_time
+from WritingPatternGenerator.MemoryWrite import MemoryWrite
 
 
 class WritingPattern:

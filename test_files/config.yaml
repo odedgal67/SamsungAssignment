@@ -1,5 +1,5 @@
 ---
-THRESHOLD: 100
+THRESHOLD: 10
 DELTA: 200
 writing_pattern:
   memory_write_1:

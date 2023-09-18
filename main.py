@@ -3,7 +3,7 @@ from os import path
 
 from FrameTransmitter import FrameTransmitter
 from WritingPatternDetector import WritingPatternDetector
-from WritingPatternGenerator import WritingPatternGenerator
+from WritingPatternGenerator.WritingPatternGenerator import WritingPatternGenerator
 
 if __name__ == '__main__':
 

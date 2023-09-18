@@ -1,9 +1,8 @@
-import os
+
 from os import path
 from typing import List
-from MemoryWrite import MemoryWrite
-from Utils import generate_random_data, read_config, THRESHOLD_KEY, DELTA_KEY
-from WritingPattern import WritingPattern
+from Utils import read_config, THRESHOLD_KEY, DELTA_KEY
+from WritingPatternGenerator.WritingPattern import WritingPattern
 
 
 class WritingPatternGenerator:
